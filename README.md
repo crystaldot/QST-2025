@@ -1,9 +1,8 @@
 # QST-2025
-This repository contains jupyter notebooks for "Hands-on training session using Qiskit" as a part of Two Day Workshop on "Quantum Science and Technolog" organized by Department of Physics Pondicherry University in association with IAPT RC-13.
+This repository contains jupyter notebooks for "Hands-on training session using Qiskit" as a part of Two Day Workshop on "Quantum Science and Technology" organized by Department of Physics Pondicherry University in association with IAPT RC-13.
 
-# Prerequisite Download and Installs for Workshop
-### Setting Up Python, Jupyter, and Qiskit
-This guide will help you set up Python (via Miniconda), install Jupyter Lab, Jupyter Notebook and required Qiskit packages for quantum computing.
+# Prerequisite Download and Installation for Workshop
+This guide will help you set up Python (via Miniconda), install Jupyter Lab and required Qiskit packages for the training session.
 
 ## Step 1: Install Miniconda (Recommended)
 Miniconda provides a lightweight environment with package management using `conda`.
@@ -20,40 +19,51 @@ Miniconda provides a lightweight environment with package management using `cond
    ```sh
    conda --version
    ```
-## Step 2: Open Anaconda Prompt or Terminal to install required packages
+## Step 2: Open Anaconda Prompt or Terminal to install Required Packages
 Activate and work in base environment by running:
 
 ```sh
 conda activate
 ```
-## Step 3: Install Jupyter Lab and Jupyter Notebook
-Jupyter Lab or Jupyter Notebook is an interactive coding environment useful for running Python code.
+## Step 3: Install Jupyter Lab
+Jupyter Lab is an interactive coding environment useful for running Python code.
 
 ```sh
 conda install -c conda-forge jupyter -y
 ```
 
-## Step 4: Install Qiskit and other required packages
-Qiskit is an open-source quantum computing framework.
-
-### Installing via pip
-```sh
-pip install qiskit
-```
-For visualization and quantum circuit drawing, install:
+## Step 4: Install Qiskit and other Required Packages
+Qiskit is an open-source software stack for quantum computing, developed by IBM, allowing users to build and run quantum circuits on various hardware, including IBM's quantum computers.
+1. Install `qiskit` along with _visualization_ capability via `pip` package manager
 ```sh
 pip install qiskit[visualization]
 ```
-Install Qiskit Aer (Quantum Simulator)
+2. Install `qiskit-aer` : Qiskit Aer is high-performance quantum computing simulators with realistic noise models.
 ```sh
 pip install qiskit-aer
 ```
-## To start Jupyter Lab run:
+3. Install a few other required packages.
+- `qiskit-algorithms` : Qiskit Algorithms is a library of quantum algorithms for quantum computing with Qiskit.
+- `qiskit-experiments` : This can be used to run characterizing, calibrating, and benchmarking experiments on quantum devices through Qiskit.
+- `qiskit-ibm-runtime` : A client for Qiskit Runtime service, a cloud-based service for executing quantum computations.
+```
+pip install qiskit-algorithms qiskit-experiments qiskit-ibm-runtime
+```
+# Create an IBMid on **[IBM Quantum](https://quantum.ibm.com/)** Platform
+Through this platform you can access:
+- IBM's latest quantum processing units (QPUs)
+- IBM Quantum Learning: Courses, Tutorials and Composer
+- Qiskit and API Documentations
+
+# Launch Jupyter Lab
+Run the following command from terminal.
 ```sh
 jupyter lab
 ```
+Above command will start a server from your terminal window, to provide you with an interactive coding environment in your default browser (Recommended: Chrome, Firefox, Edge, Safari).
+- Do not close the terminal during coding.
+- You can stop the server by using Shut Down option form File option in Mene Bar in Jupyter Lab environment or by pressing `CTRL+C` twice from you terminal windown.
 
 ---
-### You are now ready to start coding with Qiskit in Jupyter Notebook!
-For more details, visit [Qiskit Documentation](https://qiskit.org/documentation/).
-
+## You are now ready to start coding with Qiskit!
+Training notebooks will be available in `Tutorials` directory.
