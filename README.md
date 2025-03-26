@@ -62,8 +62,8 @@ jupyter lab
 ```
 Above command will start a server from your terminal window, to provide you with an interactive coding environment in your default browser (Recommended: Chrome, Firefox, Edge, Safari).
 - Do not close the terminal during coding.
-- You can stop the server by using Shut Down option form File option in Mene Bar in Jupyter Lab environment or by pressing `CTRL+C` twice from you terminal windown.
+- You can stop the server by using Shut Down option form File option in Mene Bar in Jupyter Lab environment or by pressing `CTRL+C` twice from you terminal windows.
 
 ---
 ## You are now ready to start coding with Qiskit!
-Training notebooks will be available in `Tutorials` directory.
+Training notebooks will be available in [`Tutorials`](https://github.com/crystaldot/QST-2025/tree/main/Tutorials) directory.
