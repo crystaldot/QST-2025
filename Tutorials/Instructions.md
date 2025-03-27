@@ -1,2 +1,2 @@
-- Training Notebooks will be available here before the session.
-- You may use explore the **Jupyterlab_Cheat_Sheet** file to know how to use Jupyter lab after launching `jupyter lab`.
+Training Notebooks will be available here before the session.
+You may go through the **Jupyterlab_Cheat_Sheet** file to explore how to use Jupyter Lab after launching `jupyter lab` from your terminal.
