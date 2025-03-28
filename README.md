@@ -1,5 +1,5 @@
 # QST-2025
-This repository contains jupyter notebooks for "Hands-on training session using Qiskit" as a part of Two Day Workshop on "Quantum Science and Technology" organized by Department of Physics Pondicherry University in association with IAPT RC-13.
+This repository contains jupyter notebooks for "Hands-on training session using Qiskit" as a part of Two Day Workshop on "Quantum Science and Technology" organized by Department of Physics, Pondicherry University in association with IAPT RC-13.
 
 # Prerequisite Download and Installation for Workshop
 This guide will help you to set up Python (via Miniconda), install Jupyter Lab and required Qiskit packages for the training session.
@@ -38,14 +38,14 @@ Qiskit is an open-source software stack for quantum computing, developed by IBM,
 ```sh
 pip install qiskit[visualization]
 ```
-2. Install `qiskit-aer` : Qiskit Aer is high-performance quantum computing simulators with realistic noise models.
+2. Install `qiskit-aer` : Qiskit Aer is high-performance quantum computing simulator with realistic noise models.
 ```sh
 pip install qiskit-aer
 ```
 3. Install a few other required packages.
 - `qiskit-algorithms` : Qiskit Algorithms is a library of quantum algorithms for quantum computing with Qiskit.
-- `qiskit-experiments` : This can be used to run characterizing, calibrating, and benchmarking experiments on quantum devices through Qiskit.
-- `qiskit-ibm-runtime` : A client for Qiskit Runtime service, a cloud-based service for executing quantum computations.
+- `qiskit-experiments` : This can be used for characterizing, calibrating, and benchmarking experiments on quantum devices through Qiskit.
+- `qiskit-ibm-runtime` : A client for Qiskit Runtime service, a cloud-based service for quantum computations on real quantum backends.
 ```
 pip install qiskit-algorithms qiskit-experiments qiskit-ibm-runtime
 ```
@@ -60,9 +60,9 @@ Run the following command from terminal.
 ```sh
 jupyter lab
 ```
-Above command will start a server from your terminal window, to provide you with an interactive coding environment in your default browser (Recommended: Chrome, Firefox, Edge, Safari).
+Above command will start a server from your terminal, to provide you with an interactive coding environment in your default browser (Recommended: Chrome, Firefox, Safari).
 - Do not close the terminal during coding.
-- You can stop the server by using Shut Down option form File option in Mene Bar in Jupyter Lab environment or by pressing `CTRL+C` twice from you terminal windows.
+- You can stop the server by clicking Shut Down form File option in Mene Bar in Jupyter Lab environment or by pressing `CTRL+C` twice from you terminal window.
 
 ---
 ## You are now ready to start coding with Qiskit!
