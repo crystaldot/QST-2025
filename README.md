@@ -2,7 +2,7 @@
 This repository contains jupyter notebooks for "Hands-on training session using Qiskit" as a part of Two Day Workshop on "Quantum Science and Technology" organized by Department of Physics Pondicherry University in association with IAPT RC-13.
 
 # Prerequisite Download and Installation for Workshop
-This guide will help you set up Python (via Miniconda), install Jupyter Lab and required Qiskit packages for the training session.
+This guide will help you to set up Python (via Miniconda), install Jupyter Lab and required Qiskit packages for the training session.
 
 ## Step 1: Install Miniconda (Recommended)
 Miniconda provides a lightweight environment with package management using `conda`.
