@@ -1,0 +1,5 @@
+qiskit[visualization]
+qiskit-aer
+qiskit-algorithms
+qiskit-experiments
+qiskit-ibm-runtime
