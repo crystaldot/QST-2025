@@ -1,7 +1,7 @@
 # QST-2025
 This repository contains jupyter notebooks for "Hands-on training session using Qiskit" as a part of Two Day Workshop on "Quantum Science and Technology" organized by Department of Physics, Pondicherry University in association with IAPT RC-13.
 
-# Prerequisite Download and Installation for Workshop
+# Prerequisite Downloads and Installation for Workshop
 This guide will help you to set up Python (via Miniconda), install Jupyter Lab and required Qiskit packages for the training session.
 
 ## Step 1: Install Miniconda (Recommended)
@@ -66,4 +66,4 @@ Above command will start a server from your terminal, to provide you with an int
 
 ---
 ## You are now ready to start coding with Qiskit!
-Training notebooks will be available in [`Tutorials`](https://github.com/crystaldot/QST-2025/tree/main/Tutorials) directory.
+Training notebooks are available in [`Tutorials`](https://github.com/crystaldot/QST-2025/tree/main/Tutorials) directory.
