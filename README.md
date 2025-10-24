@@ -1,7 +1,23 @@
 # QST-2025
 This repository contains jupyter notebooks for "Hands-on training session using Qiskit" as a part of Two Day Workshop on "Quantum Science and Technology" organized by Department of Physics, Pondicherry University in association with IAPT RC-13.
 
-# Prerequisite Downloads and Installation for Workshop
+## 🚀 Launch in Binder
+You can explore and run these notebooks interactively in your browser — no installation required!
+
+[Binder](https://mybinder.org/)  provides with a temporary jupyter environment to run and practice your notebooks. Click below to launch.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/crystaldot/QST-2025/main).
+
+To open a specific notebook directly:
+1. [Basic Circuit Building](https://mybinder.org/v2/gh/crystaldot/QST-2025/main?labpath=Tutorials/1-Basic_Circuit_Building.ipynb)
+2. [Primitives](https://mybinder.org/v2/gh/crystaldot/QST-2025/main?labpath=Tutorials/2-Primitives.ipynb)
+3. [QPU Execution](https://mybinder.org/v2/gh/crystaldot/QST-2025/main?labpath=Tutorials/3-QPU_Execution.ipynb)
+
+[Additional Resources](https://github.com/crystaldot/QST-2025/tree/main/Tutorials#readme)  available in the `Tutorials` directory.
+
+
+## 💻 Local Installation
+## Prerequisite Downloads and Installation for Workshop
 This guide will help you to set up Python (via Miniconda), install Jupyter Lab and required Qiskit packages for the training session.
 
 ## Step 1: Install Miniconda (Recommended)
@@ -62,7 +78,7 @@ jupyter lab
 ```
 Above command will start a server from your terminal, to provide you with an interactive coding environment in your default browser (Recommended: Chrome, Firefox, Safari).
 - Do not close the terminal during coding.
-- You can stop the server by clicking Shut Down form File option in Mene Bar in Jupyter Lab environment or by pressing `CTRL+C` twice from you terminal window.
+- You can stop the server by clicking Shut Down form File option in Menu Bar in Jupyter Lab environment or by pressing `CTRL+C` twice from you terminal window.
 
 ---
 ## You are now ready to start coding with Qiskit!
